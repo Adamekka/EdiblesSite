@@ -1,7 +1,7 @@
 const panels = document.querySelectorAll(".panel")
 
 // pičo lína vyřeš to potom, jachym bude vědět
-panels.forEach((panel, i) => {
+panels.forEach((panel) => {
     panel.addEventListener("click", () => {
         if (panel.classList.contains("active")) {
             // shrink panel logic
