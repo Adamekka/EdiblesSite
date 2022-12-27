@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-body{
+body {
     background-color: rgb(59, 59, 59);
     font-family: "Roboto", sans-serif;
     display: flex;
@@ -58,7 +58,8 @@ body{
         width: 100vw;
     }
 
-    .panel:nth-of-type(4),.panel:nth-of-type(5) {
+    .panel:nth-of-type(4),
+    .panel:nth-of-type(5) {
         display: none;
     }
 }
